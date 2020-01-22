@@ -6,6 +6,5 @@ target 'NAOSwiftAppDemo' do
   use_frameworks!
 
   # Pods for NAOSwiftAppDemo
-  pod 'NAOSwiftProvider', :path => '../NAOSwiftProvider'
-
+  pod 'NAOSwiftProvider', :git => 'https://github.com/bizagwira/NAOSwiftProvider.git', :tag => '1.0.2'
 end
